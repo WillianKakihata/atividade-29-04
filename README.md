@@ -50,7 +50,7 @@ Exemplo: JDBC (Java Database Connectivity)
 O JDBC utiliza o padrão Adapter para permitir que diferentes drivers de banco de dados (MySQL, PostgreSQL, Oracle) sigam uma interface padrão (java.sql.Driver).
 Cada driver implementa a interface adaptando-se às particularidades do banco. O restante da aplicação usa JDBC de forma genérica, sem saber o banco específico por trás.  
 
- ### 10 - Quandro **não** usar o padrão Adapter? Justifique com exemplos. 
+ ### 10 - Quando **não** usar o padrão Adapter? Justifique com exemplos. 
  Não se deve usar Adapter quando:  
 - O código-fonte original pode ser modificado com segurança (ex: você tem controle sobre ambas as classes).
 - Há risco de complexidade desnecessária, tornando o design mais difícil de manter.
